@@ -1,0 +1,9 @@
+# Pastas de sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log

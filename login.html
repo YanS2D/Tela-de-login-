@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,14 +9,20 @@
 </head>
 
 <body>
+
   <div class="container">
+
+    <label class="switch">
+      <input type="checkbox" id="toggle-switch">
+      <span class="slider"></span>
+    </label>
 
     <!-- Área do formulário -->
     <div class="formulario">
       <h2>Login</h2>
       <form id="LoginForm">
         <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Insirar seu Email aqui "required />
+        <input type="email" id="email" placeholder="Insirar seu Email aqui " required />
 
         <label for="senha">Senha:</label>
         <input type="password" id="senha" placeholder="Insirar sua Senha aqui " required />
@@ -26,11 +33,11 @@
         <button type="submit">Entrar</button>
 
         <p class="conta">Não tem conta?</p>
-        <a class="cadastro"href="cadastro.html">cadastra-se aqui</a>
+        <a class="cadastro" href="cadastro.html">cadastra-se aqui</a>
         <p class="recu">Esqueceu a senha?</p>
-        <a class="reset"href="">Recuperação de senha </a>
+        <a class="reset" href="">Recuperação de senha </a>
 
-        
+
       </form>
     </div>
 
@@ -38,4 +45,5 @@
 
   <script src="login.js"></script>
 </body>
+
 </html>

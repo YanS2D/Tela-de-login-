@@ -1,3 +1,10 @@
+
+const toggle = document.getElementById('toggle-switch');
+
+toggle.addEventListener("change", () => {
+  document.body.classList.toggle("light-mode")
+});
+
 const form = document.getElementById('LoginForm');
 const erro = document.getElementById('erro');
 

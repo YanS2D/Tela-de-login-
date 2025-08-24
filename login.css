@@ -1,16 +1,19 @@
- * {
+/* Reset básico para todos os elementos */
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    font-family: 'Times New Roman', sans-serif;
  }
 
+/* Ocupa 100% da tela e define cor de fundo escura */
  html,
  body {
    height: 100%;
    background-color: #2d2a2a;
  }
 
+/* Centraliza o conteúdo (container) no meio da tela */
  body {
    display: flex;
    justify-content: center;
@@ -18,8 +21,7 @@
    padding: 20px;
  }
 
-
-
+/* Caixa principal do login */
  .container {
    width: 100%;
    max-width: 400px;
@@ -33,6 +35,7 @@
    flex-direction: column;
  }
 
+/* Área do botão de alternância modo claro/escuro */
  .switch {
    position: relative;
    align-self: flex-end;
@@ -42,10 +45,12 @@
    background-color: #332f2f;
  }
 
+/* Oculta o checkbox padrão */
  .switch input {
    opacity: 0;
  }
 
+/* Estilo do botão (slider) do modo claro/escuro */
  .slider {
    position: absolute;
    cursor: pointer;
@@ -58,6 +63,7 @@
    border-radius: 34px;
  }
 
+/* Bolinha dentro do botão */
  .slider:before {
    position: absolute;
    content: "";
@@ -70,6 +76,7 @@
    border-radius: 50%;
  }
 
+/* Área do formulário */
  .formulario {
    background-color: #332f2f;
    padding: 14px 20px;
@@ -77,6 +84,7 @@
    flex-direction: column;
  }
 
+/* Título do formulário */
  .formulario h2 {
    font-size: 1.5rem;
    color: #0051ff;
@@ -86,6 +94,7 @@
    margin-bottom: 20px;
  }
 
+/* Labels dos inputs */
  label {
    font-weight: bold;
    font-size: 14px;
@@ -93,6 +102,7 @@
    margin-top: 5px;
  }
 
+/* Inputs de email e senha */
  input[type="email"],
  input[type="password"] {
    width: 100%;
@@ -105,16 +115,19 @@
    margin-top: 10px;
  }
 
+/* Placeholder dentro dos inputs */
  input::placeholder {
    color: #1f1d1d;
  }
 
+/* Foco no input */
  input:focus {
    outline: none;
    border-color: #f4f3f2;
    box-shadow: 0 0 0 2px #ece8e2;
  }
 
+/* Botão de entrar */
  button {
    width: 200px;
    background-color: #262497;
@@ -130,41 +143,49 @@
    display: block;
  }
 
+/* Efeito hover no botão */
  button:hover {
    background-color: #0059ff;
  }
 
+/* Estado desabilitado do botão */
  button:disabled {
    background-color: #ccc;
    cursor: wait;
  }
 
- /* quando ativar */
+ /* ============ ESTILOS DO MODO CLARO (light-mode) ============ */
 
+/* Fundo do switch no modo claro */
  .light-mode .switch {
    background-color: white;
 
  }
 
+/* Slider ativo */
  input:checked+.slider {
    background-color: #2d2a2a;
    border-radius: 34px;
  }
 
+/* Bolinha desliza pro lado */
  input:checked+.slider:before {
    transform: translateX(26px);
  }
 
+/* Caixa principal no modo claro */
  .light-mode .container {
    background-color: #ffffff;
    border: 3px solid #052f89;
    box-shadow: 0 0 7px rgba(15, 59, 155, 0.6);
  }
 
+/* Formulário no modo claro */
  .light-mode .formulario {
    background-color: #ffffff;
  }
 
+/* Corpo no modo claro */
  .light-mode {
    background: white;
    color: black;
@@ -175,28 +196,30 @@
    color: #11119b;
  }
 
+/* Título no modo claro */
  .light-mode .formulario label {
    color: #332f2f;
  }
 
- /* Inputs dentro do formulário */
+/* Labels no modo claro */
  .light-mode .formulario input {
    background-color: white;
    border: 1px solid #ccc;
    color: black;
  }
 
- /* Botão dentro do formulário */
+/* Inputs no modo claro */
  .light-mode .formulario button {
    background-color: #0b0b83;
    color: white;
  }
 
+/* Botão no modo claro */
  .light-mode .formulario button:hover {
    background-color: #0059ff;
  }
 
- /* Links e textos opcionais */
+/* Links e textos opcionais no modo claro */
  .light-mode .formulario a,
  .light-mode .formulario .conta,
  .light-mode .formulario .recu {
@@ -207,6 +230,7 @@
    color: #0059ff;
  }
 
+/* Mensagem de erro no modo claro */
  .light-mode .formulario .erro {
    color: red;
    font-size: 15px;
@@ -214,6 +238,7 @@
    margin-top: 10px;
  }
 
+/* Texto "Não tem conta?" */
  .conta {
    color: #ffffff;
    font-weight: bold;
@@ -221,6 +246,7 @@
    margin-top: 30px;
  }
 
+/* Link de cadastro */
  .cadastro {
    color: #ffffff;
    font-size: 14px;
@@ -229,6 +255,7 @@
    transition: 0.3s ease;
  }
 
+/* Texto "Esqueceu a senha?" */
  .recu {
    color: #ffffff;
    font-weight: bold;
@@ -236,20 +263,22 @@
    margin-top: 20px;
  }
 
+/* Link de resetar senha */
  .reset {
    font-size: 14px;
    margin-top: 20px;
    text-decoration: none;
    color: rgb(254, 254, 255);
    transition: 0.3s ease;
-
  }
 
+/* Hover em links */
  a:hover {
    color: #0051ff;
    text-shadow: 0 1 10px rgba(41, 100, 229, 0.6);
  }
 
+/* Responsividade para telas menores que 500px */
  @media (max-width: 500px) {
    .container {
      margin: 0 10px;

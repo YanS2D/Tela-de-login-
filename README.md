@@ -12,15 +12,19 @@ Este projeto é uma interface de login moderna e responsiva que inclui uma funci
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **HTML5:** Estruturação semântica do formulário.
-* **CSS3:** Estilização com variáveis visuais, Flexbox e transições suaves.
-* **JavaScript (Vanilla):** Lógica para troca de temas e manipulação de eventos de formulário.
+* **HTML:** Estruturação semântica do formulário.
+* **CSS:** Estilização com variáveis visuais, Flexbox e transições suaves.
+* **JavaScript** Lógica para troca de temas e manipulação de eventos de formulário.
 
 ## 📸 Demonstração
 
+### 🌙 Modo Escuro
+![Captura de tela no modo escuro](./dark.png)
 
+### ☀️ Modo Claro
+![Captura de tela no modo claro](./light.png)
 ## 📂 Como visualizar o projeto
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+   git clone https://github.com/YanS2D/Tela-de-login-.git

@@ -25,7 +25,7 @@
  .container {
    width: 100%;
    max-width: 400px;
-   height: 500px;
+   height: 520px;
    background-color: #332f2f;
    border-radius: 20px;
    border: 3px solid #0051ff;
@@ -153,6 +153,14 @@
    background-color: #ccc;
    cursor: wait;
  }
+
+ /* Mensagem de erro*/
+.formulario .erro {
+   color: red;
+   font-size: 15px;
+   text-align: center;
+   margin-top: 10px;
+  }
 
  /* ============ ESTILOS DO MODO CLARO (light-mode) ============ */
 

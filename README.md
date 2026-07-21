@@ -19,10 +19,10 @@ Este projeto é uma interface de login moderna e responsiva que inclui uma funci
 ## 📸 Demonstração
 
 ### 🌙 Modo Escuro
-![Captura de tela no modo escuro](./Dark.png)
+![Captura de tela no modo escuro](./dark.png)
 
 ### ☀️ Modo Claro
-![Captura de tela no modo claro](./Light.png)
+![Captura de tela no modo claro](./light.png)
 ## 📂 Como visualizar o projeto
 
 1. Clone este repositório:

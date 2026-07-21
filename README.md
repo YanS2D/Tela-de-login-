@@ -19,12 +19,12 @@ Este projeto é uma interface de login moderna e responsiva que inclui uma funci
 ## 📸 Demonstração
 
 ### 🌙 Modo Escuro
-![Captura de tela no modo escuro](./dark.png)
+![Captura de tela no modo escuro](./Dark.png)
 
 ### ☀️ Modo Claro
-![Captura de tela no modo claro](./light.png)
+![Captura de tela no modo claro](./Light.png)
 ## 📂 Como visualizar o projeto
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/YanS2D/Tela-de-login-.git
+   git clone https://github.com/YanS2D/Tela-de-login.git

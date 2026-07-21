@@ -32,7 +32,7 @@ form.addEventListener('submit', (e) => {
 
     if (email === usuarioValido.email && senha === usuarioValido.senha) {
       console.log('Login realizado com sucesso!');
-      erro.textContent = '';
+      erro.textContent = 'Login realizado com sucesso!';
     } else {
       erro.textContent = 'Credenciais inválidas.';
     }
